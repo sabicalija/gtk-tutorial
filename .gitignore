@@ -3,5 +3,8 @@
 */**/.vscode/
 */**/.metadata/
 */**/build/
+*/**/bin/
+
+*.o
 
 # Allow
