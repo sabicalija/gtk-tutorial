@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+	<gresource prefix="/greeter">
+		<file>style/greeter.css</file>
+		<file>img/background.jpg</file>
+		<file>font/MarckScript-Regular.ttf</file>
+	</gresource>
+</gresources>

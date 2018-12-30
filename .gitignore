@@ -1,0 +1,7 @@
+# Ignore
+*/**/Debug/
+*/**/.vscode/
+*/**/.metadata/
+*/**/build/
+
+# Allow

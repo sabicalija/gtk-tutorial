@@ -1,0 +1,10 @@
+window {
+	background-image: url('/greeter/img/background.jpg');
+	background-size: 100% auto;
+}
+
+#label_output {
+	color: #4A90F9;
+	font-size: 24px;
+	font-family: "Marck Script";
+}
