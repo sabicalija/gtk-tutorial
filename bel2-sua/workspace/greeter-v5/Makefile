@@ -6,8 +6,8 @@ SRCDIR    = src
 #------------------------------------------------------------------#
 #---------------------------- Compiler ----------------------------#
 CC        = clang
-CC_FLAGS := `pkg-config --cflags gtk+-3.0`
-LD_FLAGS := `pkg-config --libs gtk+-3.0`
+CC_FLAGS := `pkg-config --cflags gtk+-3.0` -Wall
+LD_FLAGS := `pkg-config --libs gtk+-3.0` -rdynamic
 
 EXEC      = $(BUILDDIR)/$(TARGET)
 SOURCES   = $(wildcard $(SRCDIR)/*.c) $(RES)
